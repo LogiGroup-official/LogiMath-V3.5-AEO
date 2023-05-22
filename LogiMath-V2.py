@@ -3,7 +3,7 @@ import math
 
 print("Programme développé par LogiCorp")
 print("")
-print("LogiMath AEO V4.7.1")
+print("LogiMath AEO V4.7.2")
 print("")
 
 print("")
@@ -22,7 +22,7 @@ if a == 0:
     print("Une erreur a été rencontrée, nous ne pouvons pas calculer, veuillez réessayer")
 else:
     print("")
-
+    b=int(input("Entrez la vealeur de B (NOMBRE ENTIER UNIQUEMENT !) : "))
     if b == 0:
         print("La valeur de B que vous venez d'entrer est incorrecte, ARRÊT DU PROGRAMME")
         print("Code erreur 0x000001b")
@@ -55,7 +55,7 @@ else:
 
         print("Le programme a réussi à résoudre votre problème !")
         print("")
-        print("Pour rappel, la version de ce programme est la 4.7.1")
+        print("Pour rappel, la version de ce programme est la 4.7.2")
 
         print("")
         choix = input("Souhaitez-vous calculer le périmètre ou l'aire du disque ? (p/a) : ")
